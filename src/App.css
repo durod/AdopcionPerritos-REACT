@@ -1,0 +1,71 @@
+.containerprincipal {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+.card-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.cardprincipal {
+  padding: 1rem;
+  border: 1px solid black;
+  width: 100%;
+  height: 33rem;
+  background-color: wheat;
+  padding: 11px 1px 1px 1px;
+  border-radius: 5px;
+  -webkit-box-shadow: 7px 29px 44px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 29px 44px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 29px 44px -14px rgba(0, 0, 0, 0.75);
+}
+
+.cardprincipal p {
+  height: 12rem;
+  padding: 2rem;
+}
+
+span {
+  width: 10rem;
+}
+
+span:hover {
+  color: orange;
+  transform: scale(1.1);
+}
+.card-container img {
+  height: 13rem;
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.dog-image {
+  transition: transform 0.2s;
+}
+
+.dog-image:hover {
+  transform: scale(1.1);
+}
+
+.tags-container {
+  height: 5rem;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
